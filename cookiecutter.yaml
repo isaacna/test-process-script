@@ -1,0 +1,11 @@
+default_context:
+    municipality: "test-process-script"
+    municipality_slug: "test-process-script"
+    python_municipality_slug: "test_process_script"
+    infrastructure_slug: "cdp-test-process-script-XFAhcmEp"
+    maintainer_or_org_full_name: "Isaac"
+    hosting_github_username_or_org: "isaacna"
+    hosting_github_repo_name: "test-process-script"
+    hosting_github_url: "https://github.com/isaacna/test-process-script"
+    hosting_web_app_address: "https://isaacna/github.io/test-process-script"
+    firestore_region: "us-west2"

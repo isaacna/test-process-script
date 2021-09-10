@@ -1,0 +1,40 @@
+{
+    "name": "cdp-test-process-script",
+    "version": "1.0.0",
+    "homepage": "https://isaacna/github.io/test-process-script",
+    "license": "MIT",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "lint": "eslint --ignore-path .gitignore .",
+        "deploy": "gh-pages -d build"
+    },
+    "dependencies": {
+        "@councildataproject/cdp-frontend": "^0.2.0",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    },
+    "devDependencies": {
+        "eslint-config-strongloop": "^2.1.0",
+        "eslint-plugin-jsdoc": "^15.11.0",
+        "eslint-utils": "^1.4.2",
+        "gh-pages": "^2.2.0",
+        "react-scripts": "^3.4.1"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
