@@ -1,0 +1,2 @@
+(this["webpackJsonpcdp-test-process-script"]=this["webpackJsonpcdp-test-process-script"]||[]).push([[0],[,,,function(e,t,n){e.exports=n(4)},function(e,t,n){"use strict";n.r(t);var s=n(0),c=n.n(s),r=n(2);function p(){return c.a.createElement("h1",null,"CDP App Instance")}n.n(r).a.render(c.a.createElement(p,null),document.getElementById("root"))}],[[3,1,2]]]);
+//# sourceMappingURL=main.4df1da55.chunk.js.map

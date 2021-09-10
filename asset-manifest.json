@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/github.io/test-process-script/static/js/main.4df1da55.chunk.js",
+    "main.js.map": "/github.io/test-process-script/static/js/main.4df1da55.chunk.js.map",
+    "runtime-main.js": "/github.io/test-process-script/static/js/runtime-main.77da34e0.js",
+    "runtime-main.js.map": "/github.io/test-process-script/static/js/runtime-main.77da34e0.js.map",
+    "static/js/2.8b7c1f0b.chunk.js": "/github.io/test-process-script/static/js/2.8b7c1f0b.chunk.js",
+    "static/js/2.8b7c1f0b.chunk.js.map": "/github.io/test-process-script/static/js/2.8b7c1f0b.chunk.js.map",
+    "index.html": "/github.io/test-process-script/index.html",
+    "precache-manifest.ed50192fa29e80156ccaa6ce834d5e70.js": "/github.io/test-process-script/precache-manifest.ed50192fa29e80156ccaa6ce834d5e70.js",
+    "service-worker.js": "/github.io/test-process-script/service-worker.js",
+    "static/js/2.8b7c1f0b.chunk.js.LICENSE.txt": "/github.io/test-process-script/static/js/2.8b7c1f0b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77da34e0.js",
+    "static/js/2.8b7c1f0b.chunk.js",
+    "static/js/main.4df1da55.chunk.js"
+  ]
+}
