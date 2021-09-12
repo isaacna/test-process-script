@@ -39,10 +39,10 @@ jobs:
 
     - name: Dump Event Details to JSON
       run: |
-        echo ${{ github.event.inputs.event-details-json-string }}{% raw %} > python/event-details.json
+        echo ${{ github.event.inputs.event-details-json-string }} > python/event-details.json
 
     - name: Process special events into event gather pipeline
-      if: {% raw %}${{ github.event_name == 'workflow_dispatch' }}
+      if: ${{ github.event_name == 'workflow_dispatch' }}
       run: |
         cd python/
         process_special_event \
