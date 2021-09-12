@@ -4,7 +4,12 @@
 from datetime import datetime
 from typing import List
 
-from cdp_backend.pipeline.ingestion_models import EventIngestionModel
+from cdp_backend.pipeline.ingestion_models import (
+    EventIngestionModel,
+    EXAMPLE_MINIMAL_EVENT,
+    Session
+)
+
 
 ###############################################################################
 
@@ -35,6 +40,11 @@ def get_events(
     and to_dt parameters. However, they are useful for manually kicking off pipelines
     from GitHub Actions UI.
     """
+    event = EXAMPLE_MINIMAL_EVENT
+    event.body.description = "fjffjfjfjfj"
 
-    # Your implementation here
-    return []
+    video_uri = "https://samplelib.com/lib/preview/mp4/sample-5s.mp4"
+    session_2 = Session(datetime(2005, 1, 13), video_uri, 0)
+    event.sessions = [session_2]
+
+    return [event]
