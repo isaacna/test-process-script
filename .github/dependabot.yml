@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "pip"
     directory: "/python"
     schedule:
-      interval: "daily"
+      interval: "hourly"
     allow:
       - dependency-name: "cdp-backend"
   
